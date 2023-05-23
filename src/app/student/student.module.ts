@@ -5,6 +5,7 @@ import { AddressComponent } from './address/address.component';
 import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
+import { CityComponent } from './city/city.component';
 
 
 const student: Routes = [
@@ -17,7 +18,8 @@ const student: Routes = [
   declarations: [
     MarksComponent,
     AddressComponent,
-    StudentdetailsComponent
+    StudentdetailsComponent,
+    CityComponent
   ],
   imports: [
     CommonModule,
