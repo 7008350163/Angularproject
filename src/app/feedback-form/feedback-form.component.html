@@ -1,0 +1,39 @@
+<!--<h2>Feedback form for Product Purchased</h2>
+<form [formGroup]="feedbackForm" (ngSubmit)="CustomerReveiws()">
+    <input type="text" placeholder="Enter Name" formControlName="Enter Name" required>
+    <br> 
+    <span style="color:red;" *ngIf="user && user.invalid && user.touched">Enter valid input</span>
+    <br>
+    <input type="text" placeholder="City" formControlName="City">
+    <br>
+    <span style="color:red;" *ngIf="city && city.invalid && city.touched">Enter valid input</span> <br>
+    <textarea type="text"placeholder="Reviews"></textarea>
+    <br>
+    <span style="color:red;" *ngIf="reviews && reviews.invalid && reviews.touched">Enter valid input</span>
+    <button [disabled]="feedbackForm.invalid">Submit</button>
+</form>--> 
+
+<h3 class="p-3 text-center">Angular - Display a list of items with ngFor</h3>
+<div class="container">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>AnnualSalary</th>
+                <th>DateofBirth</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.Code}}</td>
+                <td>{{user.Name}}</td>
+                <td>{{user.Gender}}</td>
+                <td>{{user.AnnualSalary}}</td>
+                <td>{{user.DateofBirth}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

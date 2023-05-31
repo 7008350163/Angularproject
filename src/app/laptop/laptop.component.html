@@ -1,0 +1,17 @@
+<p>laptop works!</p>
+<div class="flex">
+    <div class="flex" *ngFor=" let i of laptop1">
+     
+       <div class="card" style="width: 18rem;">
+     <img src="{{i.img}}" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">{{i.title}}</h5>
+       <p class="card-text">{{i.desc}}</p>
+       <button href="#" class="btn btn-primary" (click)="next1(i.id)">Buy Now</button>
+     </div>
+      </div>
+    </div>   
+ </div>
+
+
+ 

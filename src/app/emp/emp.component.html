@@ -1,0 +1,46 @@
+<p>emp works!</p>
+    <div>
+        <label for="">name</label><br>
+        <br>
+        <label for="">email</label>
+       
+        <br>
+        <label for="">contact</label>
+        <br>
+        
+        <label for="">Salary</label>
+        
+        <br>
+        <label for="">Post</label>
+        
+        <br>
+        <br>
+        <button class="btn"(click)="addemp()">add list</button>
+    </div>
+    
+
+<button (click)="Employeedetails()">get list</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>contact</th>
+            <th>Salary</th>
+            <th>Post</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of emp1">
+            <td>{{i.id}}</td>
+            <td>{{i.name}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.contact}}</td>
+            <td>{{i.Salary}}</td>
+            <td>{{i.Post}}</td>
+        </tr>
+    </tbody>
+
+</table>

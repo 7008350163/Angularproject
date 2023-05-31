@@ -1,0 +1,44 @@
+{
+    "emp":[
+        {
+            "id":1,
+            "name":"Jojo",
+            "email":"jojo@gmail.com",
+            "contact":"8596742546",
+            "Salary":60000,
+            "Post":"Developer"
+        },
+        {
+            "id":2,
+            "name":"Sharry",
+            "email":"sharry@gmail.com",
+            "contact":"8588742546",
+            "Salary":52000,
+            "Post":"Junior Developer"
+        },
+        {
+            "id":3,
+            "name":"Harry",
+            "email":"harry@gmail.com",
+            "contact":"8596747546",
+            "Salary":50000,
+            "Post":"Junior Developer"
+        },
+        {
+            "id":4,
+            "name":"Jim",
+            "email":"Jim@gmail.com",
+            "contact":"8592242546",
+            "Salary":65000,
+            "Post":"Senior Developer"
+        },
+        {
+            "id":5,
+            "name":"Merry",
+            "email":"Merry@gmail.com",
+            "contact":"8696742546",
+            "Salary":70000,
+            "Post":"Full Stack Developer"
+        }
+    ]
+}
